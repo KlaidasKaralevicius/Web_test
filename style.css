@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+}
+header {
+    color: aliceblue;
+    background-color: rgb(0, 132, 209);
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    padding: 30px;
+}
+label {
+    font-size: 24px;
+    font-weight: 600;
+}
+button {
+    margin-top: 10px;
+}
+.text-bg-secondary .card-header{
+    background-color: rgb(108, 117, 125);
+}
+.current-weather {
+    background-color: rgb(0, 132, 209);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+.current-weather .card-header {
+    background-color: rgb(13, 202, 240);
+}
+img {
+    width: 120px;
+}
+.week {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+@media (min-width: 786px) {
+    .main {
+      justify-content: left;
+    }
+    .extra {
+        margin-left: -10px;
+    }
+}
