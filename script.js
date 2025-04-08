@@ -68,7 +68,7 @@ const getWeatherDetails = (city_name, lat, lon) => {
 };
 // get data from specific longitude and latitude found by city name, create cards and display them
 const getCityCoordinates = () => {
-  const city_name = city_input.value.tRrim();
+  const city_name = city_input.value.trim();
   if (city_name == "") return;
   const api_url = `https://api.openweathermap.org/geo/1.0/direct?q=${city_name}&limit=1&appid=${api_key}`;
   fetch(api_url).then((response) => response.json()).then((data) => {
